@@ -1,13 +1,9 @@
-import React from 'react'
+import React from "react";
 
-import { useMyHook } from 'myhooks'
+import { useExample } from "myhook";
 
 const App = () => {
-  const example = useMyHook()
-  return (
-    <div>
-      {example}
-    </div>
-  )
-}
-export default App
+  const example = useExample();
+  return <div>{example}</div>;
+};
+export default App;
