@@ -1,4 +1,5 @@
 import React from 'react';
+import 'highlight.js/styles/github.css';
 
 const h = React.createElement;
 
@@ -11,7 +12,7 @@ const ShowDocs = (props: any) => {
         padding: '0 20px',
       },
       dangerouslySetInnerHTML: {
-        __html: props.md.default,
+        __html: props.md,
       },
     }),
     h('style', {

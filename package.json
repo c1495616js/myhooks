@@ -23,11 +23,13 @@
     "start": "rollup -c -w",
     "prepare": "npm run build",
     "predeploy": "cd example && npm install && npm run build",
-    "deploy": "gh-pages -d example/build"
+    "deploy": "gh-pages -d example/build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
-  "dependencies": {},
   "peerDependencies": {
-    "react": "^16.9.0"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -37,17 +39,28 @@
     "@rollup/plugin-node-resolve": "^9.0.0",
     "@rollup/plugin-typescript": "^5.0.2",
     "@rollup/plugin-url": "^5.0.1",
-    "@testing-library/react-hooks": "^3.2.1",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-interactions": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/builder-webpack5": "^6.5.9",
+    "@storybook/manager-webpack5": "^6.5.9",
+    "@storybook/react": "^6.5.9",
+    "@storybook/testing-library": "^0.0.13",
+    "@testing-library/react-hooks": "^8.0.1",
     "@types/jest": "^23.3.13",
     "@types/react": "^16.7.22",
+    "babel-loader": "^8.2.5",
     "cross-env": "^5.2.0",
     "gh-pages": "^2.0.1",
-    "react": "^16.9.0",
+    "highlight.js": "^11.6.0",
+    "markdown-loader": "^8.0.0",
     "react-scripts": "^3.4.0",
     "react-test-renderer": "^16.9.0",
     "rollup": "^2.26.9",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "tslib": "^2.0.1",
-    "typescript": "^3.2.4"
+    "typescript": "^3.2.4",
+    "webpack": "^5.73.0"
   }
 }
