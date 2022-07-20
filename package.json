@@ -7,7 +7,7 @@
     "email": "c1495616@gmail.com"
   },
   "license": "MIT",
-  "repository": "c1495616js/myhooks",
+  "repository": "https://github.com/c1495616js/myhooks",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
