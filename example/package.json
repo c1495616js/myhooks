@@ -1,7 +1,7 @@
 {
   "name": "myhooks-example",
   "homepage": "https://c1495616js.github.io/myhooks",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "private": true,
   "dependencies": {
