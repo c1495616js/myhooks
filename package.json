@@ -1,8 +1,11 @@
 {
-  "name": "@c1495616js/myhooks",
+  "name": "myhooks",
   "version": "1.0.0",
-  "description": "",
-  "author": "c1495616js",
+  "description": "",  
+  "author": {
+    "name": "Jerry Wang",
+    "email": "c1495616@gmail.com"
+  },
   "license": "MIT",
   "repository": "c1495616js/myhooks",
   "main": "dist/index.js",
